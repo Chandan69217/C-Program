@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main()
-{
+{   system("cls");
     int  m,n,p1=1,p2=1;
     float evalu;
     unsigned short i;

@@ -43,7 +43,7 @@ void cal_day( Date d)
 }
 
 int main()
-{
+{  system("cls");
    Date date1;
    date1= read();
    cal_day(date1);
