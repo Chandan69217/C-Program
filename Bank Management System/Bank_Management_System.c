@@ -10,7 +10,6 @@
  * 
  */
 
-
 #include"stdio.h"
 #include"conio.h"
 #include"windows.h"
@@ -82,7 +81,7 @@ void forAsk(){
      forDelay(2000000000);
      goto invalid;
  }
- 
+
 }
 
 float interest(float time, float amount, int rate){
@@ -507,7 +506,7 @@ void see(){
     }
     if(test==0)
     {
-        printf("\n\n\t\t\t\t\t No record matched!!");
+        printf("\n\n\t\t\t\t\t No record matched!!");z
         fclose(View);
         forAsk();
     }
@@ -557,6 +556,7 @@ int main(){
     system("cls");
     printf("\n\n\t\t\t\t\t Bank Management System\n\n\t\t\t\t\t\tUser Login");
     printf("\n\n\n\t\t\t\t\t Enter Password to Login:- ");
+    fflush(stdin);
     scanf("%s",&GetPassword);
     
         if(strcmp(SavePassword,GetPassword)==0){
